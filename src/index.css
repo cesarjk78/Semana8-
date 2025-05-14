@@ -1,0 +1,17 @@
+/* Cambiar botones primary a turquesa */
+.btn-primary {
+    background-color: turquoise !important;
+    border-color: turquoise !important;
+    color: white !important;
+  }
+  
+  /* Cambiar navbar a rojo */
+  .navbar {
+    background-color: crimson !important;
+  }
+  
+  /* Opcional: links en la navbar */
+  .navbar a {
+    color: white !important;
+  }
+  

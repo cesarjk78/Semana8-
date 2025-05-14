@@ -1,0 +1,52 @@
+.mi-navbar {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    padding: 15px 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-link-custom {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link-custom:hover {
+    color: #00e676;
+  }
+  
+  .btn-logout {
+    background-color: transparent;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-logout:hover {
+    background-color: #ff5252;
+    color: white;
+  }
+  
